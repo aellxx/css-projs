@@ -113,5 +113,14 @@ article {
   flex-wrap: wrap;
   span {
     display: block;
+    a {
+      text-decoration: none;
+      &:hover {
+         color: $gray;
+      }
+      &:visited {
+        color: black;
+      }
+    }
   }
 }
