@@ -1,0 +1,7 @@
+@import "_variables";
+
+@mixin cardHeader($marginBottom) {
+    font-size: $cardTitleFontSize;
+    font-weight: $cardTitleFontWeight;
+    margin-bottom: $marginBottom;
+}
