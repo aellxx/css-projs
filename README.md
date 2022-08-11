@@ -6,4 +6,4 @@
   * https://www.behance.net/gallery/121616477/SUPER-MATCHA-BRANDING
 * project 04 is cloned from: http://www.z-o-o.fr/en
 * project 05 is cloned from: https://schwartzmedia.com.au/
-* project 06 clone from: https://rodicdavidson.co.uk/
+* project 06 is cloned from: https://rodicdavidson.co.uk/
