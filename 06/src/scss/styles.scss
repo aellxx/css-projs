@@ -33,8 +33,14 @@ header {
     padding: 0 $sidePadding;
   }
   span {
-    padding-right: 1rem;
+    padding-right: 1vw;
     font-weight: $spanFontWeight;
+  }
+  .hidden {
+    display: none;
+  }
+  .menu {
+    text-align: end;
   }
 }
 
