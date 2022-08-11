@@ -1,0 +1,32 @@
+@import "_variables";
+
+@mixin responsiveHeader {
+    @media only screen and (max-width: $maxScreen) and (min-width: $twoColGridMin) {
+        /* have everything in nav bar */
+        grid-template-columns: 1fr 3fr; 
+    }
+    @media only screen and (max-width: $twoColGridMin) and (min-width: $oneColMax) {
+        grid-template-columns: 1fr 2fr;
+    } 
+    @media only screen and (max-width: $oneColMax) and (min-width: $minScreen) {
+        /* only menu panel*/
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@mixin responsiveMain {
+    @media only screen and (max-width: $maxScreen) and (min-width: $twoColGridMin) {
+        margin-left: 25%;
+        /* 2 * n grid */
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media only screen and (max-width: $twoColGridMin) and (min-width: $oneColMax) {
+        margin-left: 33%;
+        /* 1 * 2n grid */
+        grid-template-columns: 1fr; 
+    } 
+    @media only screen and (max-width: $oneColMax) and (min-width: $minScreen) {
+        margin: 1rem 0;
+        grid-template-columns: 1fr;
+    }
+}
