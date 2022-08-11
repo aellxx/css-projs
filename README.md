@@ -1,4 +1,4 @@
-# css layout clone coding with https://nomadcoders.co/
+# CSS Layout Clone Coding with [Nomad Coders](https://nomadcoders.co/)
 * project 01 images are from https://gongchausa.com/
 * project 02 images are from:
   * https://www.instagram.com/supermatcha.official/
